@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Vista - Premium Restaurant & Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <span class="logo-icon">🍽️</span>
+          <span class="logo-text">Bella Vista</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="reserve-btn">Reserve Table</button>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-line">Welcome to</span>
+            <span class="title-main">Bella Vista</span>
+            <span class="title-sub">Premium Dining Experience</span>
+          </h1>
+          <p class="hero-description">
+            Where culinary excellence meets warm hospitality. Experience the
+            finest flavors crafted with passion and served with love.
+          </p>
+          <div class="hero-btns">
+            <button class="btn-primary">
+              <span>View Menu</span>
+              <div class="btn-shine"></div>
+            </button>
+            <button class="btn-secondary">
+              <span>Book Table</span>
+            </button>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-target="500">0</div>
+              <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="50">0</div>
+              <div class="stat-label">Menu Items</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="15">0</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <div class="main-image"></div>
+            <div class="floating-elements">
+              <div class="float-item item-1">🍕</div>
+              <div class="float-item item-2">🍰</div>
+              <div class="float-item item-3">☕</div>
+              <div class="float-item item-4">🥗</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span>Scroll Down</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Our Menu</span>
+          <h2 class="section-title">Delicious Specialties</h2>
+          <p class="section-description">
+            Discover our carefully crafted dishes made with the finest
+            ingredients
+          </p>
+        </div>
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-category="all">All</button>
+          <button class="tab-btn" data-category="breakfast">Breakfast</button>
+          <button class="tab-btn" data-category="lunch">Lunch</button>
+          <button class="tab-btn" data-category="dinner">Dinner</button>
+          <button class="tab-btn" data-category="desserts">Desserts</button>
+        </div>
+        <div class="menu-grid">
+          <div class="menu-item" data-category="breakfast">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Classic Pancakes</h3>
+                <span class="menu-price">$12.99</span>
+              </div>
+              <p>Fluffy pancakes served with maple syrup and fresh berries</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+          <div class="menu-item" data-category="lunch">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Grilled Salmon</h3>
+                <span class="menu-price">$24.99</span>
+              </div>
+              <p>Fresh Atlantic salmon with herbs and lemon butter sauce</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+          <div class="menu-item" data-category="dinner">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Beef Steak</h3>
+                <span class="menu-price">$32.99</span>
+              </div>
+              <p>Premium ribeye steak cooked to perfection with sides</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+          <div class="menu-item" data-category="desserts">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Chocolate Cake</h3>
+                <span class="menu-price">$9.99</span>
+              </div>
+              <p>Rich chocolate cake with vanilla ice cream</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+          <div class="menu-item" data-category="breakfast">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Avocado Toast</h3>
+                <span class="menu-price">$10.99</span>
+              </div>
+              <p>Sourdough bread with smashed avocado and poached eggs</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+          <div class="menu-item" data-category="lunch">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Caesar Salad</h3>
+                <span class="menu-price">$14.99</span>
+              </div>
+              <p>Fresh romaine lettuce with parmesan and croutons</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+          <div class="menu-item" data-category="dinner">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Pasta Carbonara</h3>
+                <span class="menu-price">$18.99</span>
+              </div>
+              <p>Classic Italian pasta with bacon and creamy sauce</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+          <div class="menu-item" data-category="desserts">
+            <div class="menu-image">
+              <div class="menu-overlay">
+                <button class="menu-view-btn">View Details</button>
+              </div>
+            </div>
+            <div class="menu-info">
+              <div class="menu-header">
+                <h3>Tiramisu</h3>
+                <span class="menu-price">$11.99</span>
+              </div>
+              <p>Traditional Italian dessert with coffee and mascarpone</p>
+              <div class="menu-rating">⭐⭐⭐⭐⭐</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-frame">
+              <div class="frame-image"></div>
+              <div class="frame-decoration"></div>
+            </div>
+          </div>
+          <div class="about-text">
+            <span class="section-tag">Our Story</span>
+            <h2 class="section-title">A Culinary Journey</h2>
+            <p class="about-description">
+              Since 2008, Bella Vista has been serving exceptional cuisine in a
+              warm and inviting atmosphere. Our chefs combine traditional
+              techniques with modern innovation to create unforgettable dining
+              experiences.
+            </p>
+            <p class="about-description">
+              We source the finest ingredients locally and globally, ensuring
+              every dish tells a story of quality, passion, and dedication to
+              culinary excellence.
+            </p>
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon">👨‍🍳</div>
+                <h4>Expert Chefs</h4>
+                <p>World-class culinary professionals</p>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">🌱</div>
+                <h4>Fresh Ingredients</h4>
+                <p>Locally sourced organic produce</p>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon">⭐</div>
+                <h4>Premium Quality</h4>
+                <p>Excellence in every dish</p>
+              </div>
+            </div>
+            <button class="btn-primary">
+              <span>Learn More</span>
+              <div class="btn-shine"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Gallery</span>
+          <h2 class="section-title">Our Moments</h2>
+          <p class="section-description">
+            A glimpse into our restaurant atmosphere and delicious creations
+          </p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <div class="gallery-image"></div>
+            <div class="gallery-overlay">
+              <span class="gallery-icon">🔍</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact/Reservation Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <span class="section-tag">Reservation</span>
+            <h2 class="section-title">Book Your Table</h2>
+            <p class="section-description">
+              Reserve your table today and experience fine dining at its best
+            </p>
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div class="info-text">
+                  <h4>Address</h4>
+                  <p>123 Culinary Street, Food City, FC 12345</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">📞</div>
+                <div class="info-text">
+                  <h4>Phone</h4>
+                  <p>+1 (555) 123-4567</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">✉️</div>
+                <div class="info-text">
+                  <h4>Email</h4>
+                  <p>info@bellavista.com</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">🕐</div>
+                <div class="info-text">
+                  <h4>Hours</h4>
+                  <p>Mon-Sun: 9:00 AM - 11:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <form class="reservation-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+                <span class="input-border"></span>
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+                <span class="input-border"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="tel" placeholder="Phone Number" required />
+                <span class="input-border"></span>
+              </div>
+              <div class="form-group">
+                <input type="date" required />
+                <span class="input-border"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <input type="time" required />
+                <span class="input-border"></span>
+              </div>
+              <div class="form-group">
+                <select required>
+                  <option value="">Number of Guests</option>
+                  <option value="1">1 Guest</option>
+                  <option value="2">2 Guests</option>
+                  <option value="3">3 Guests</option>
+                  <option value="4">4 Guests</option>
+                  <option value="5+">5+ Guests</option>
+                </select>
+                <span class="input-border"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Special Requests (Optional)"
+                rows="4"
+              ></textarea>
+              <span class="input-border"></span>
+            </div>
+            <button type="submit" class="submit-btn">
+              <span>Reserve Table</span>
+              <div class="btn-shine"></div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="logo">
+              <span class="logo-icon">🍽️</span>
+              <span class="logo-text">Bella Vista</span>
+            </div>
+            <p>Creating memorable dining experiences since 2008</p>
+            <div class="social-links">
+              <a href="#" class="social-link">📘</a>
+              <a href="#" class="social-link">📷</a>
+              <a href="#" class="social-link">🐦</a>
+              <a href="#" class="social-link">📺</a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <ul>
+              <li>📍 123 Culinary Street</li>
+              <li>📞 +1 (555) 123-4567</li>
+              <li>✉️ info@bellavista.com</li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Opening Hours</h4>
+            <ul>
+              <li>Monday - Sunday</li>
+              <li>9:00 AM - 11:00 PM</li>
+              <li>Open All Week</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Bella Vista Restaurant. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-bar">
+      <div class="scroll-progress"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
